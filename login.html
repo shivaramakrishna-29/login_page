@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+body{
+     background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+
+}
+.parent{
+    background-color:rgba(255, 255, 255, 0.5);
+    backdrop-filter:blur(20px);
+    text-align: center;
+    margin: 5% auto 0% auto;
+    width: 27%;
+    padding: 40px,25px;
+    font-family: 'Montserrat', sans-serif;    
+}
+.parent div{
+    margin: 3% 0%
+}
+.form-filed input{
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border: 1px solid black;
+    background-color: inherit;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    
+}
+.form-filed input ::placeholder{
+    color: white;
+}
+.parent a{
+    text-decoration: none;
+    color:gold;
+}
+
+.form-checkbox{
+    margin: auto !important;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    padding: 0px 8px;
+
+}
+.form-filed button{ 
+    background-color: #4ea1d7;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    width: 80%;
+    padding: 15px 20px;
+   
+}
+.form-link a{
+    border: 1px solid red;
+    background-color: beige;
+    padding: 10px 5px;
+    width: 79%;
+    margin: 0 auto;   /* 🔥 centers the box */
+    text-align: center;
+   
+}
+    
+</style>
+<body>  
+    <form class="parent">
+        <div>
+            Welcome back
+        </div>
+        <div class="form-filed">
+            <input
+            placeholder="Email adress" required/>
+        </div>
+        <div class="form-filed"> 
+            <input
+            placeholder="password" required />
+        </div>
+        <div class="form-checkbox">
+            <div>
+            <input
+            type="checkbox"/>
+            <label for="remember">Remember me</label>
+            </div>
+            <a href="#">Forgot password?</a>
+        </div>
+        <div class="form-filed">
+            <button style="margin-bottom: 8%;">Sign up</button>
+        </div>
+        <div>
+            <a href="#"></a>
+        </div>
+        <div class="form-link">
+            <a href="#"><i class="fa-brands fa-google"></i>Sign in with google</a>
+        </div>
+        <div class="form-field">
+            Don't have an account? Sign up
+        </div>
+
+    </form>
+</body>
+</html>
